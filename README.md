@@ -116,41 +116,28 @@ After you've completed the FIXME, run the following command
 $ python3 runtimes.py --max_x=22
 ```
 and copy/paste the resulting table into this README file below this line.
+|   timsort    |   merge_sorted   |   quick_sorted    |
+|-------|------|-------|
+|' 0.00 | 0.00 | 0.00 '|
+|' 0.00 | 0.00 | 0.00 '|
+|' 0.00 | 0.00 | 0.00 '|
+|' 0.00 | 0.00 | 0.00 '|
+|' 0.00 | 0.00 | 0.00 '|
+|' 0.00 | 0.00 | 0.00 '|
+|' 0.00 | 0.00 | 0.00 '|
+|' 0.00 | 0.00 | 0.00 '|
+|' 0.00 | 0.00 | 0.00 '|
+|' 0.00 | 0.00 | 0.01 '|
+|' 0.00 | 0.01 | 0.01 '|
+|' 0.00 | 0.02 | 0.02 '|
+|' 0.00 | 0.04 | 0.04 '|
+|' 0.00 | 0.07 | 0.11 '|
+|' 0.01 | 0.22 | 0.25 '|
+|' 0.02 | 0.43 | 0.53 '|
+|' 0.03 | 0.89 | 1.09 '|
+|' 0.08 | 1.97 | 2.34 '|
+|' 0.21 | 3.96 | 5.25 '|
 
-|' + 0.00 + | + 0.00 + |
-len(xs)=2**0 runtimes={'timsort': 4.407018423080444e-06, 'merge_sorted': 2.9653310775756836e-06, 'quick_sorted': 3.0882656574249268e-06}
-|' + 0.00 + | + 0.00 + |
-len(xs)=2**1 runtimes={'timsort': 2.8051435947418213e-06, 'merge_sorted': 9.901821613311768e-06, 'quick_sorted': 1.2386590242385864e-05}
-|' + 0.00 + | + 0.00 + |
-len(xs)=2**2 runtimes={'timsort': 2.302229404449463e-06, 'merge_sorted': 1.553446054458618e-05, 'quick_sorted': 1.372024416923523e-05}
-|' + 0.00 + | + 0.00 + |
-len(xs)=2**3 runtimes={'timsort': 3.2670795917510986e-06, 'merge_sorted': 3.426894545555115e-05, 'quick_sorted': 3.54573130607605e-05}
-|' + 0.00 + | + 0.00 + |
-len(xs)=2**4 runtimes={'timsort': 4.198402166366577e-06, 'merge_sorted': 7.810071110725403e-05, 'quick_sorted': 8.039921522140503e-05}
-|' + 0.00 + | + 0.00 + |
-len(xs)=2**5 runtimes={'timsort': 7.167458534240723e-06, 'merge_sorted': 0.00018996372818946838, 'quick_sorted': 0.0001769624650478363}
-|' + 0.00 + | + 0.00 + |
-len(xs)=2**6 runtimes={'timsort': 1.4845281839370728e-05, 'merge_sorted': 0.00035730376839637756, 'quick_sorted': 0.0004367455840110779}
-|' + 0.00 + | + 0.00 + |
-len(xs)=2**7 runtimes={'timsort': 2.7801841497421265e-05, 'merge_sorted': 0.0008588433265686035, 'quick_sorted': 0.0010054409503936768}
-|' + 0.00 + | + 0.00 + |
-len(xs)=2**8 runtimes={'timsort': 6.316974759101868e-05, 'merge_sorted': 0.0018876977264881134, 'quick_sorted': 0.002339642494916916}
-|' + 0.00 + | + 0.00 + |
-len(xs)=2**9 runtimes={'timsort': 0.00013808906078338623, 'merge_sorted': 0.004046343266963959, 'quick_sorted': 0.005307074636220932}
-|' + 0.00 + | + 0.01 + |
-len(xs)=2**10 runtimes={'timsort': 0.00029110535979270935, 'merge_sorted': 0.008833024650812149, 'quick_sorted': 0.011848919093608856}
-|' + 0.00 + | + 0.02 + |
-len(xs)=2**11 runtimes={'timsort': 0.0006717517971992493, 'merge_sorted': 0.019729848951101303, 'quick_sorted': 0.028631139546632767}
-|' + 0.00 + | + 0.05 + |
-len(xs)=2**12 runtimes={'timsort': 0.0014407671988010406, 'merge_sorted': 0.046300359070301056, 'quick_sorted': 0.052684273570775986}
-|' + 0.00 + | + 0.09 + |
-len(xs)=2**13 runtimes={'timsort': 0.0031772367656230927, 'merge_sorted': 0.09015895426273346, 'quick_sorted': 0.12229154258966446}
-|' + 0.01 + | + 0.20 + |
-len(xs)=2**14 runtimes={'timsort': 0.0068593211472034454, 'merge_sorted': 0.2030624896287918, 'quick_sorted': 0.2551906369626522}
-|' + 0.02 + | + 0.40 + |
-len(xs)=2**15 runtimes={'timsort': 0.015499815344810486, 'merge_sorted': 0.40415767952799797, 'quick_sorted': 0.5180493220686913}
-|' + 0.03 + | + 0.83 + |
-len(xs)=2**16 runtimes={'timsort': 0.03346123546361923, 'merge_sorted': 0.8294505216181278, 'quick_sorted': 1.0376195944845676}
 <!-- add the table here -->
 
 You should observe that python's built-in sort function is 10-100x faster than yours.
