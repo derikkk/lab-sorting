@@ -232,6 +232,25 @@ then rerun the command above to generate a markdown table of runtimes.
 Copy/paste the table into the README file below this line.
 
 <!-- add the table here -->
+|   timsort    |   merge_sorted   |   quick_sorted    |
+|-------|------|-------|
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.01 |0.01 |
+|0.00 | 0.01 |0.02 |
+|0.00 | 0.03 |0.03 |
+|0.00 | 0.07 |0.08 |
+|0.00 | 0.16 |0.18 |
+|0.00 | 0.33 |0.39 |
+|0.00 | 0.70 |0.82 |
 
 You should notice that the built-in `sorted` function ran much faster on this input,
 but your `merge_sorted` and `quick_sorted` functions have essentially the same runtimes.
