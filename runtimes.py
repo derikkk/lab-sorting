@@ -38,7 +38,6 @@ if __name__ == '__main__':
             # your specific task is to make xs be a list of all numbers between 0 and 2**x
             xs = list(range(2**x))
             #xs = FIXME
-
         # calculate the runtimes
         runtimes = {}
         runtimes['timsort'] = timeit.timeit(lambda: sorted(xs), number=1)
@@ -52,4 +51,5 @@ if __name__ == '__main__':
         # You will have to look up how to do this formatting.
         # In order to get a proper markdown table,
         # you will have to also print a header line somewhere else.
-        print(f'len(xs)=2**{x} runtimes={runtimes}')
+print(f"|{runtimes['timsort']:0.2f} | {runtimes['merge_sorted']:0.2f} |{runtimes['quick_sorted']:0.2f} |")
+
